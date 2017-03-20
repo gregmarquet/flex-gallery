@@ -2,7 +2,7 @@ html {
       box-sizing: border-box;
       background:#ffc600;
       font-family:'helvetica neue';
-      font-size: 20px;
+      font-size: 0.9em;
       font-weight: 200;
     }
     body {
@@ -15,6 +15,7 @@ html {
     .panels {
       min-height:100vh;
       overflow: hidden;
+      display: flex;
     }
 
     .panel {
@@ -29,9 +30,10 @@ html {
         font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
         flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
         background 0.2s;
-      font-size: 20px;
+      font-size: 0.9em;
       background-size:cover;
       background-position:center;
+      flex: 1;
     }
 
 
@@ -51,14 +53,14 @@ html {
       text-transform: uppercase;
       font-family: 'Amatic SC', cursive;
       text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-      font-size: 2em;
+      font-size: 1.7em;
     }
     .panel p:nth-child(2) {
-      font-size: 4em;
+      font-size: 2.5em;
     }
 
     .panel.open {
-      font-size:40px;
+      font-size:2em;
     }
 
     .cta {
